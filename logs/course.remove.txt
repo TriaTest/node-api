@@ -1,0 +1,4 @@
+[20/06/2024 21:28:54] ReferenceError: OldImage is not defined
+
+[20/06/2024 21:29:42] Error: Cannot delete or update a parent row: a foreign key constraint fails (`full_stack_g8`.`classroom`, CONSTRAINT `classroom_ibfk_2` FOREIGN KEY (`CourseId`) REFERENCES `course` (`Id`))
+
