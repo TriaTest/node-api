@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  node-api:
+    container_name: node-api
+    image: chantria/node-api:v1
+    ports:
+      - "4001:8085"
+    restart: "always"
